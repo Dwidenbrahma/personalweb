@@ -1,0 +1,7 @@
+.nav-link a:hover{
+color: #000000;
+}
+.contact-me input[type="submit"]:hover{
+    background: linear-gradient(rgb(255, 212, 19), rgb(223, 157, 13));
+    color: black;
+}

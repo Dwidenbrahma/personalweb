@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./static/css/styles.css">
+<link rel="stylesheet" href="./static/css/media.css">
+<link rel="stylesheet" href="./static/css/hover.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+<title>MySkills</title>
+</head>
+<body>
+  <section id=top>
+    <a href="#" class="toggle-button">
+        <span class="bard"></span>
+        <span class="bard"></span>
+        <span class="bard"></span>
+    </a>
+      <div class="nav">
+          <h1>Dwiden</h1>
+
+          <div class="nav-link">
+            <li><a href="#" >Home</a></li>
+            <li><a href="#git" >Project</a></li>
+            <li> <a href="#bottom">contact me</a></li>
+
+          </div>                        
+      </div>
+      <div class="intro-page">
+          <div class="left-side">
+              <h2>Hi there !</h2>
+              <h2>I'm Dwiden</h2>
+              <h2>Newbie web developer Programmer</h2>
+          </div>
+
+            <img src="./static/image/man.jpg" alt="my-image">
+          
+      </div>
+  </section>
+  
+<section id="middle">
+    <h1>About me</h1>
+    <div class="about-me">
+
+        <div class="left-float">
+            <img src="./static/image/man2.jpg" alt="my-image">
+
+        </div>
+        <div class="right-float">
+            <h3>I love programming ❤️❤️❤️ </h3>
+            <p>
+                Programmer, web developer. Html CSS Javascript Node js Flask.with 4 to 5 months of experience.
+                I'm Computer Science Student. I love programming so much.
+            </p>
+            <h3>Till now i have complete 100+ project in web & Programming (Beginner level project) 😃😃</h3>
+
+        </div>
+    </div>
+    <div class="skill">
+        <div class="frontent">
+            <h2>Frontend</h2>
+            <div class="skill-level">
+            <p>HTML</p>
+
+            <div class="bar">
+                <div class="line" style="width: 80%;">
+                    <p>html</p>
+                </div>
+            </div>
+           
+            <p>CSS</p>
+
+            <div class="bar">
+                <div class="line" style="width: 40%;">
+                    <p>html</p>
+                </div>
+            </div>
+            <p>Javascript</p>
+
+            <div class="bar">
+                <div class="line" style="width: 20%;">
+                    <p>html</p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <div class="backend">
+            <h2>Backend</h2>
+            <div class="skill-level">
+                <p>Flask</p>
+    
+                <div class="bar">
+                    <div class="line" style="width: 50%;">
+                        <p>html</p>
+                    </div>
+                </div>
+               
+                <p>Nodejs</p>
+    
+                <div class="bar">
+                    <div class="line" style="width: 40%;">
+                        <p>html</p>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+        <div class="program">
+            <h2> Programming Language</h2>
+            <div class="skill-level">
+                <p>Python</p>
+    
+                <div class="bar">
+                    <div class="line" style="width: 70%;">
+                        <p>html</p>
+                    </div>
+                </div>
+               
+                <p>C/C++</p>
+    
+                <div class="bar">
+                    <div class="line" style="width: 50%;">
+                        <p>html</p>
+                    </div>
+                </div>
+                <p>Java</p>
+    
+                <div class="bar">
+                    <div class="line" style="width: 30%;">
+                        <p>html</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section id="bottom">
+    <div class="contact-me">
+        <h1>Contact me</h1>
+        <form action="{{ url_for('home') }}" method="post" id="my-form">
+            <p>Name</p>
+            <input type="text" name="name">
+            <p>Email</p>
+            <input type="email" name="email">
+            <p>Phone</p>
+            <input name="phone" type="text"><br>
+            <p>Write short message</p>
+            <textarea form="my-form" rows="4" cols="63" name="comment" style="outline:none; font-size:1.3em;" ></textarea>
+            <input type="submit" value="Submit">
+        </form>
+
+
+    </div>
+    <div class="social-link">
+        <h4>Follow me</h4>
+        <a href="#"><img src="./static/image/icon/facebook.png"></a>
+        <a href="#"> <img src="./static/image/icon/twitter.png"></a>
+        <a id="git" href="#"> <img src="./static/image/icon/github.png"></a>
+
+    </div>
+  
+
+</section>
+</body>
+<script src="./static/javascript/index.js"></script>
+</html>
